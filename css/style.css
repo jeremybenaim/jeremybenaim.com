@@ -1,0 +1,147 @@
+/*--------------*/
+/* Global stuff */
+/*--------------*/
+html,body {
+    margin: 0;
+    padding: 0;
+    font: 100 16px/1.4 'Open Sans', Arial, sans-serif;
+    background: #f5f5f5;
+    color: #555;
+    text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+    -webkit-transition: color .1s;
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
+    color: inherit;
+}
+
+h1, h2, p { margin-top: 0; }
+
+section {
+	padding: 33px 20px 35px 180px;
+}
+article {
+	width: 600px;
+}
+
+
+/*------------*/
+/* Navigation */
+/*------------*/
+nav {
+    position: fixed;
+    top: 30px;
+    width: 150px;
+    background: #f5f5f5;
+    padding-left: 30px;
+}
+
+nav ul {
+	margin: 0 0 1.3em;
+	list-style: none;
+	padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    letter-spacing: -.05em;
+    outline: 0 none;
+    border: 0 none;
+    font-size: 1.5em;
+}
+
+nav ul li a.active,
+nav ul li a:hover,
+nav ul li a:focus{
+	color: #000;
+	text-shadow: 0 0 1px rgba(0, 0, 0, .35); 
+}
+
+nav ul li a.twitter:hover,
+nav ul li a.twitter:focus {
+    color: #00aced;
+}
+nav ul li a.viadeo:hover,
+nav ul li a.viadeo:focus {
+    color: #ffa500;
+}
+nav ul li a.linkedin:hover,
+nav ul li a.linkedin:focus {
+    color: #038cbb;
+}
+nav ul li a.github:hover,
+nav ul li a.github:focus {
+    color: #000;
+}
+nav ul li a.myspace:hover,
+nav ul li a.myspace:focus {
+    color: #ccc;
+}
+
+/*-------*/
+/* Posts */
+/*-------*/
+.post header{
+	margin-bottom: 1.2em;
+}
+.post h1{
+	margin-bottom: 0;
+}
+.post header small{
+	color: #aaa;
+}
+
+/*-----------------------*/
+/* Pages specific styles */
+/*-----------------------*/
+#home {
+	margin-top: -13px;
+    width: 700px; 
+}
+#home h1,
+#home h2 {
+    font: 100 4em/1.2 'Open Sans', Arial, sans-serif;
+    letter-spacing: -.05em;
+    margin-bottom: 0;
+}
+
+/*-----------------*/
+/* Misc. & Helpers */
+/*-----------------*/
+::selection {
+    background: #2e2e2e;
+    color: #e5e5e5;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #2e2e2e;
+    color: #e5e5e5;
+    text-shadow: none;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.cf:before,
+.clearfix:before,
+.cf:after,
+.clearfix:after{
+	display: table;
+	content: "";
+	zoom: 1;
+	*display: inline;
+}
+.cf,.clearfix{ zoom: 1; }
+.cf:after,.clearfix:after{ clear: both }
+
+.hidden { display: none; }
+
+.fl { float: left; }
+.fr { float: right; }
