@@ -1,4 +1,4 @@
 jeremybenaim.com
 ================
 
-Source of my Jekyll powered, handcrafted, beloved website.
+Jekyll source of my beloved website.
