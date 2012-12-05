@@ -5,7 +5,7 @@ html,body {
     margin: 0;
     padding: 0;
     font: 100 16px/1.5 'Open Sans', Arial, sans-serif;
-    background: #f5f5f5;
+    background: #fff;
     color: #555;
     text-rendering: optimizeLegibility;
 	-webkit-text-size-adjust: none;
@@ -37,7 +37,7 @@ nav {
     position: fixed;
     top: 30px;
     width: 150px;
-    background: #f5f5f5;
+    background: inherit;
     padding-left: 30px;
 }
 
