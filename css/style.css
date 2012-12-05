@@ -33,11 +33,15 @@ article {
 /*------------*/
 /* Navigation */
 /*------------*/
-nav {
+aside{
     position: fixed;
-    top: 30px;
-    width: 150px;
+    height: 100%;
+    width: 180px;
     background: inherit;
+}
+
+nav {
+    padding-top: 30px;
     padding-left: 30px;
 }
 
