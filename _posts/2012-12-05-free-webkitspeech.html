@@ -8,7 +8,7 @@ permalink: /blog/webkit-speech-input.html
 
 <p>Lately I found myself playing around with the webkitspeech attribute which essentially allows you to speak to your input element, but which works only on Chrome (for now...)</p>
 
-<p>Thus, I try to find more info on Google and what I've found has been pretty much the same thing each time :</p>
+<p>Thus, I tried to find more info on Google and what I've found has been pretty much the same thing each time :</p>
 
 <blockquote>"How to enable speech input in Chrome?<br>
 Add a webkitspeech attribute to your input tag, speak, and voila!"</blockquote>
@@ -19,14 +19,14 @@ Add a webkitspeech attribute to your input tag, speak, and voila!"</blockquote>
 
 <h4>Pardon my French, but...</h4>
 
-<p>First, my laptop default language is French, and I didn't really realized that it'll have an incidence on my first tests...and as you might imagine I had some weird results trying to speak English to an input which was waiting for some French.</p>
+<p>First, my laptop default language is French, and I didn't really realize that it would have an impact on my first tests...and as you might imagine I had some weird results trying to speak English to an input which was waiting for some French.</p>
 
 <p>So I figured out that I probably have to specify a language for my html document (seems legit, though), but eventually you might want to decorrelate the language of your documents to the language used specifically for your speech input and adding a lang attribute directly to your input works just fine.</p>
 <p>Now I can speak German, it'll be fine as long as I've added `lang="de"` to my input.</p>
 
 <h4>What was that you said ?</h4>
 
-<p>Then I tried to simply console.log the onwebkitspeechchange event, to see what happens there and no one mentioned it but you don't just get one unique result which is binded to the value of the input element, but 5. Which allows you to display suggestions to the users.</p>
+<p>Then I tried to simply console.log the onwebkitspeechchange event, to see what happens there and no one mentioned it but you don't just get one unique result which is bound to the value of the input element, but 5. Which allows you to display suggestions to the users.</p>
 
 <a href="http://labs.jeremybenaim.com/demos/speech-input" class="demo">See the demo</a>
 
