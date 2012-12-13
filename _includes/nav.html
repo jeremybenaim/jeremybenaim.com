@@ -1,5 +1,5 @@
 <nav class="no-select">
-	<ul>
+	<ul class="home">
 		<li>
 		{% if page.title %}
 			<a href="/">home</a>
@@ -8,7 +8,7 @@
 		{% endif %}
 		</li>
 	</ul>
-	<ul>
+	<ul class="pages">
 {% for node in site.pages %}
 	{% if node.title %}
 		{% if page.url == node.url || (page.url contains 'blog' && node.url contains 'blog')  %}
