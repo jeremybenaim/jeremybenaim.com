@@ -34,6 +34,25 @@
 			{{ content }}
 		</article>
 	</section>
-	<script>window.scrollTo(0,76);</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="/js/harvey.js" type="text/javascript"></script>
+	<script>
+		(function() {
+		  var q;
+
+		  q=Harvey.attach('screen and (max-width:915px)', {
+		  	setup: function(){
+		      return window.scrollTo(0,76);
+		  	},
+		    on: function() {
+		      return window.scrollTo(0,76);
+		    },
+		    off: function() {
+		      return window.scrollTo(0,0);
+		    }
+		  });
+		}).call(this);
+	</script>
 </body>
 </html>
