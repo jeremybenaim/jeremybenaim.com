@@ -23,84 +23,10 @@ a {
 h1, h2, p { margin-top: 0; }
 
 section {
-	padding: 33px 20px 35px 180px;
+	padding: 30px;
 }
 article {
 	width: 500px;
-}
-
-
-/*------------*/
-/* Navigation */
-/*------------*/
-aside{
-	position: fixed;
-	height: 100%;
-	width: 180px;
-	background: inherit;
-}
-
-nav {
-	padding-top: 30px;
-	padding-left: 30px;
-}
-
-nav ul {
-	margin: 0 0 1.3em;
-	list-style: none;
-	padding: 0;
-}
-nav ul li a {
-	text-decoration: none;
-	letter-spacing: -.05em;
-	outline: 0 none;
-	border: 0 none;
-	font-size: 1.5em;
-}
-
-nav ul li a.active,
-nav ul li a:hover,
-nav ul li a:focus{
-	color: #000;
-	text-shadow: 0 0 1px rgba(0, 0, 0, .35); 
-}
-
-nav ul li a.twitter:hover,
-nav ul li a.twitter:focus {
-	color: #00aced;
-}
-nav ul li a.viadeo:hover,
-nav ul li a.viadeo:focus {
-	color: #ffa500;
-}
-nav ul li a.linkedin:hover,
-nav ul li a.linkedin:focus {
-	color: #038cbb;
-}
-nav ul li a.github:hover,
-nav ul li a.github:focus {
-	color: #000;
-}
-nav ul li a.myspace:hover,
-nav ul li a.myspace:focus {
-	color: #ccc;
-}
-
-/*-------*/
-/* Posts */
-/*-------*/
-.post header{
-	margin-bottom: 1.2em;
-}
-.post h1{
-	margin-bottom: 0;
-}
-.post header small{
-	color: #aaa;
-}
-
-.demo {
-	font-size: 22px;
 }
 
 /*-----------------------*/
@@ -164,53 +90,15 @@ nav ul li a.myspace:focus {
 		height:100%;
 		position:relative;
 	}
-
 	section{
 		width: auto;
 		clear: both;
 		margin: 0;
 		padding: 5%;
-		height: 100%;
 	}
 	#home,
 	article{
 		width:auto;
 		padding-bottom: 5%;
-	}
-	aside {
-		position: relative;
-		top: 0;
-		left: 0;
-		height: auto;
-		width: 100%;
-		background: 0 none;
-		box-sizing: border-box;
-	}
-	nav {
-		margin:0;
-		padding:2% 5%;
-	}
-	nav ul {
-		float: left;
-	}
-	nav ul,
-	nav ul li{
-		display:inline;
-		margin: 0 1em 0 0;
-	}
-	nav ul:last-child,
-	nav ul li:last-child{
-		margin-right:0;
-	}
-	.links{
-		width: 100%;
-		font-size:10px;
-	}
-	.links::after{
-		content : "~";
-		font: 100 2em/1 cursive;
-		display: block;
-		text-align: center;
-		margin: 0;
 	}
 }
