@@ -1,1 +1,1 @@
-Jekyll source of my beloved website.
+http://jeremybenaim.com
