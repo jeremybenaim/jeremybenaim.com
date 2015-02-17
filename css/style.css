@@ -15,7 +15,7 @@
 html,body {
 	margin: 0;
 	padding: 0;
-	font: 100 16px/1.5 'Open Sans', Arial, sans-serif;
+	font: 300 16px/1.5 'Open Sans', Arial, sans-serif;
 	background: #fff;
 	color: #555;
 	text-rendering: optimizeLegibility;
@@ -49,7 +49,7 @@ article {
 }
 #home h1,
 #home h2 {
-	font: 100 4em/1.2 'Open Sans', Arial, sans-serif;
+	font: 300 4em/1.2 'Open Sans', Arial, sans-serif;
 	letter-spacing: -.05em;
 	margin-bottom: 0;
 }
