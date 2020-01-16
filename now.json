@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "name": "jeremybenaim.com",
+  "builds": [
+    { "src": "package.json", "use": "@now/next" }
+  ]
+}
