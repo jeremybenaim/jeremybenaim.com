@@ -1,0 +1,19 @@
+{
+  "name": "jeremybenaim.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jeremybenaim/jeremybenaim.com.git",
+  "author": "Jeremy Benaim <jeremybenaim@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
