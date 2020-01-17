@@ -142,8 +142,8 @@ const Index = () => {
         }
 
         strong {
-          border: 2px solid yellow;
-          background: yellow;
+          border: 2px solid #ddd;
+          background: #ddd;
           font-weight: 600;
           color: ${theme.light.textColor};
         }
@@ -169,10 +169,6 @@ const Index = () => {
           html, body {
             background: ${theme.dark.backgroundColor};
             color: ${theme.dark.textColor};
-          }
-          strong {
-            border: 2px solid white;
-            background: white;
           }
           a {
             color: ${theme.dark.textColor};
