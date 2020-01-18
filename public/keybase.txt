@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jeremybenaim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeremybenaim.com
+  * I am jeremybenaim (https://keybase.io/jeremybenaim) on keybase.
+  * I have a public key ASARdCbfAWJMvcOjN9OlRtbg9mGxOCN3JMNulyIaAMaVhQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dd798b00b8f5bcb62cfdeefc53750a0c513e0a2bec5b5b3ee6229f79717c4e0e0a",
+      "host": "keybase.io",
+      "kid": "0120117426df01624cbdc3a337d3a546d6e0f661b138237724c36e97221a00c695850a",
+      "uid": "d8cb329998fbede4d14e64266d1e7119",
+      "username": "jeremybenaim"
+    },
+    "merkle_root": {
+      "ctime": 1579345795,
+      "hash": "8bef6883f38a62b40de4372cbe183e78216440fa3b5f203786ad2df221284635589b62505c578ccbcf64378698d1a6f1feeabe69360045cdc27a87f26c990f3e",
+      "hash_meta": "d2e67fcb7af7e147c15b14a5b966d9475fb22a98a9fdcb9857d51537cb930cc9",
+      "seqno": 14274232
+    },
+    "service": {
+      "entropy": "mELRRr2wlMyJkUP6e91ys10B",
+      "hostname": "jeremybenaim.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1579345816,
+  "expire_in": 504576000,
+  "prev": "74c213ed58ece0186c422879759edd05f49d678f6392a58e80ef3f978ed97a1a",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEXQm3wFiTL3DozfTpUbW4PZhsTgjdyTDbpciGgDGlYUKp3BheWxvYWTESpcCGcQgdMIT7Vjs4BhsQih5dZ7dBfSdZ49jkqWOgO8/l47ZehrEILqFgRtVzCy/kPnk+VtXBB/4tHjosncpxAscKMLSBpp0AgHCo3NpZ8RAWUK4k5/L5RCs0DC+I4WjuUy+XdfDCf3gAQnc4OwRq0zo6i9RfEYp1f0zN5bOPUr3Jdz4H+RdbcPxQiPrnI2pDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOHuigS5Twe20UaMTYEu5ljOZ9omfys6qyG1u4DzbRBUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeremybenaim
+
+==================================================================
