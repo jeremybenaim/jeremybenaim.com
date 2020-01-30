@@ -83,7 +83,7 @@ const Index = () => {
             ', ',
             <Link href="https://www.waldo.io/" color="#5792fc" key="waldo">Waldo.io</Link>,
             ', ',
-            <Link href="https://hivyapp.com/" color="#75fbc4" key="hivy">Hivy (YC W17, acquired)</Link>,
+            <Link href="https://www.efounders.com/companies/hivy/" color="#75fbc4" key="hivy">Hivy (YC W17, acquired)</Link>,
             ', ',
             <Link href="https://www.efounders.com/" color="#52cc51" key="ef">eFounders</Link>,
             ', ',
