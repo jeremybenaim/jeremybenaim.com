@@ -1,12 +1,12 @@
-import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import React from "react";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
-import { GA_TRACKING_ID } from '../common/track'
+import { GA_TRACKING_ID } from "../common/track";
 
 export default class extends Document {
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
@@ -29,7 +29,7 @@ export default class extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
-    )
+      </Html>
+    );
   }
 }
