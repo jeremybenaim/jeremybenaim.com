@@ -79,6 +79,8 @@ const Index = () => {
         <p>{
           [
             `Some companies I've worked with: `,
+            <Link href="https://protonmail.com/" color="#657ee4" key="protonmail">ProtonMail</Link>,
+            ', ',
             <Link href="https://jour.com/" color="#fc7669" key="jour">Jour</Link>,
             ', ',
             <Link href="https://www.waldo.io/" color="#5792fc" key="waldo">Waldo.io</Link>,
